@@ -13,7 +13,8 @@ function Home() {
          />
          <div className="home_row">
            <Product
-             title="The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book) "
+             id="12345"
+             title="The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book)"
              price={14.08}
              rating={4}
              image={
@@ -21,16 +22,18 @@ function Home() {
              }
            />
            <Product
-             title="2021 Newest Lenovo Ideapad 3 Laptop, 15.6 Full HD 1080P Non-Touch Display, AMD Ryzen 3 3250U Processor, 8GB DDR4 RAM, 256GB PCIe NVMe SSD, Webcam, Wi-Fi, HDMI, Windows 10 Home, KKE Mousepad, Grey"
+             id="67890"
+             title="2020 Apple MacBook Pro (13.3-inch/33.78 cm, Apple M1 chip with 8-core CPU and 8-core GPU, 8GB RAM, 512GB SSD) - Space Grey"
              image={
-               "https://m.media-amazon.com/images/I/71WTF+xiiHL._AC_UY218_.jpg"
+               "https://m.media-amazon.com/images/I/71an9eiBxpL._AC_UY218_.jpg"
              }
-             price={599}
-             rating={4}
+             price={1299}
+             rating={5}
            />
          </div>
          <div className="home_row">
            <Product
+             id="13579"
              title="Echo Dot (4th Gen, 2020 release) | Smart speaker with Alexa | Charcoal"
              image={
                "https://m.media-amazon.com/images/I/714Rq4k05UL._AC_UY218_.jpg"
@@ -39,6 +42,7 @@ function Home() {
              rating={5}
            />
            <Product
+             id="24680"
              title="Apple Watch Series 3 (GPS, 42mm) - Silver Aluminum Case with White Sport Band"
              image={
                "https://m.media-amazon.com/images/I/71gsjKxyfjL._AC_UY218_.jpg"
@@ -47,6 +51,7 @@ function Home() {
              rating={4}
            />
            <Product
+             id="10293"
              title="Samsung S21 Ultra 5G with Snapdragon 888 (Phantom Silver, 12GB RAM, 256GB Storage)"
              image={
                "https://m.media-amazon.com/images/I/81J0QOSKU-L._AC_UY218_.jpg"
@@ -57,12 +62,13 @@ function Home() {
          </div>
          <div className="home_row">
            <Product
-             title="2020 Apple MacBook Pro (13.3-inch/33.78 cm, Apple M1 chip with 8-core CPU and 8-core GPU, 8GB RAM, 512GB SSD) - Space Grey"
+             id="67584"
+             title="Acer Predator X35 1800R Curved 35 Inch UltraWide QHD Gaming Monitor I G-SYNC Ultimate I Quantum…"
              image={
-               "https://m.media-amazon.com/images/I/71an9eiBxpL._AC_UY218_.jpg"
+               "https://images-eu.ssl-images-amazon.com/images/I/61PG4UvgJxS._AC_UL160_SR160,160_.jpg"
              }
-             price={1199}
-             rating={5}
+             price={1099}
+             rating={4}
            />
          </div>
        </div>
